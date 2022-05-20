@@ -14,7 +14,7 @@ const Stack = createNativeStackNavigator()
 const container = (
     <NavigationContainer>
         <Stack.Navigator 
-            initialRouteName="ListaDeLugares"
+            initialRouteName="NovoLugar"
             screenOptions={{
                 headerStyle: {backgroundColor: Cores.primary},
                 headerTintColor: 'white'
